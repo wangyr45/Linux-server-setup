@@ -1,10 +1,7 @@
 # Odoo
 关于Odoo安装部署等一系列问题，供有缘人安装部署及服务器搭建
+
 # 将 ODOO 安装在 Ubuntu 上面
-
-无论用于生产环境，还是用于开发和测试环境，我们都建议将ODOO安装在 Linux 环境下，稳定性和性能都能得到保证。
-
-ODOO 官方也给出了安装指令。补充一些官方没提到的内容，这样初学者也能根据指令完成安装。
 
 本文举例用的是 ubuntu 16.04，安装 ODOO 10 版本。
 
@@ -73,3 +70,5 @@ sudo apt-get install -y nginx
 ![6-2](http://zhflash.com/wp-content/uploads/2016/10/6-2.png)
 
 ![6-3](http://zhflash.com/wp-content/uploads/2016/10/6-3.png)
+
+
