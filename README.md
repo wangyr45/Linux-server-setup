@@ -2,6 +2,8 @@
 一些问题可以在我的博客园上寻找答案。
 
 > https://www.cnblogs.com/wangyuehan/
+  https://www.yuehan.online/
+> 均可留言找我，我有时间就会帮助解决相关问题。
 
 # Odoo
 关于Odoo安装部署等一系列问题，供有缘人安装部署及服务器搭建
@@ -76,4 +78,9 @@ sudo apt-get install -y nginx
 
 ![6-3](http://zhflash.com/wp-content/uploads/2016/10/6-3.png)
 
-
+通过localhost:8069之后，后创建postgresql数据库来保存数据，然后在后期很多小白可能找不到数据库设置（也不会使用Linux相关技能）。其实很简单
+> localhost:8069/web/database/manager
+  localhost:8069/web/database/selector
+ 在浏览器中输入上述命令就可以修改数据库，备份数据库以及创建数据库了。
+ 
+ 另外一些问题就是，在安装nginx之后，nginx占用80端口，而部署域名可能默认80端口，很多小白依照命令安装nginx发现无法通过www.xxxxxxx.cn/com来访问，而是通过www.xxxxxxx.cn/com：8069端口来访问，哈哈哈哈，其实nginx就是反向代理，只需要在nginx设置下代理的域名信息配置下就可以了（这个在我博客中有步骤）。
