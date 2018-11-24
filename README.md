@@ -83,4 +83,4 @@ sudo apt-get install -y nginx
   localhost:8069/web/database/selector
  在浏览器中输入上述命令就可以修改数据库，备份数据库以及创建数据库了。
  
- 另外一些问题就是，在安装nginx之后，nginx占用80端口，而部署域名可能默认80端口，很多小白依照命令安装nginx发现无法通过www.xxxxxxx.cn/com来访问，而是通过www.xxxxxxx.cn/com：8069端口来访问，哈哈哈哈，其实nginx就是反向代理，只需要在nginx设置下代理的域名信息配置下就可以了（这个在我博客中有步骤）。
+ 另外一些问题就是，在安装nginx之后，nginx占用80端口，而部署域名可能默认80端口，很多小白依照命令安装nginx发现无法通过www.xxxxxxx.cn/com来访问（可能小白安装完nginx不知道为什么安装它，好处很多哦），而是通过www.xxxxxxx.cn/com：8069端口来访问，哈哈哈哈，其实nginx就是反向代理，只需要在nginx设置下代理的域名信息配置下就可以了（这个在我博客中有步骤）。
