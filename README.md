@@ -2,9 +2,8 @@
 一些问题可以在我的博客园上寻找答案。
 
 > https://www.cnblogs.com/wangyuehan/
-  <br/>
-> https://www.yuehan.online/
-  <br/>
+  https://www.yuehan.online/
+  https://www.wangyurui.cn/
 均可留言找我，我有时间就会帮助解决相关问题。
 
 # Odoo
